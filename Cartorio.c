@@ -49,6 +49,8 @@ int registro() //Função responsavel por cadastrar os usuários no sistema
 	fprintf(file, cargo);
 	fclose(file); //fecha o arquivo
 	
+	printf("\n\nPressione 1 para novo cadastro ou qualquer tecla para voltar ao menu:\n");
+	
 	system("pause");
 }
 
